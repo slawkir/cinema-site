@@ -1,0 +1,14 @@
+h1
+p
+span
+css
+header
+//отступ слева и справа расчитывается автоматически
+margin-left: auto; 
+margin-right: auto;
+
+//внешний отступ
+margin
+
+//внутренний отступ
+padding
