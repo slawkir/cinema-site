@@ -21,3 +21,21 @@ text-decoration: none; //обычный текст
 text-decoration: underline;
 text-decoration: line-through;
 text-decoration: overline;
+
+//прижать элемент
+float: 
+float: right // к правому краю
+float: дуае // к левому краю
+
+
+//убрать точки маркированного списка
+list-style: none;
+
+//хотим не блочный элемент превратить в блочный
+ display: block;
+
+ //пропадают маленькие отступы по краям. *{} - применяется для ВСЕХ объектов
+ *{
+  margin: 0;
+  padding: 0;
+}

@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .header{
 background-color: darkslateblue;
 height: 177px;
@@ -23,7 +29,7 @@ min-width: 900px;
 }
 
 .logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
-  padding: 22px, 0 0 0;
+  padding: 22px 0 0 0;
   color: #fff;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -33,4 +39,35 @@ min-width: 900px;
   font-size: 0.9em;
   padding: 4px 0 0 0;
   color: #999;
+}
+
+/*горизонтальное меню*/
+.menubar {
+  width: 900px;
+  height: 46px;
+}
+
+ul.menu {
+  float: right;
+}
+ul.menu li {
+  float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+}
+
+ul.menu li a {
+  font: normal 100% 'trebuchet ms', sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu li.selected a {
+  color: #aeb002;
+}
+ul.menu li a:hover {
+  color: #e4ec04;
 }
